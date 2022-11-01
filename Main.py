@@ -70,7 +70,7 @@ for i in range(len(operations)):
         result.append(obj.dequeue())
     elif operations[i] == "is_full":
         result.append(obj.is_full())
-    elif operations[i] == "is_empty":
+    elif operations[i] == "is_empty":  
         result.append(obj.is_empty())
 
 print(result)
